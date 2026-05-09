@@ -270,3 +270,7 @@ footer {
     display: block;
   }
 }
+.logo img {
+  max-width: 35px !important;
+  max-height: 35px !important;
+}
