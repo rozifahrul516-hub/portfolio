@@ -34,10 +34,25 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 22px;
+  gap: 10px;
+  font-size: 20px;
   font-weight: 700;
   color: #8b5e3c;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 1.5px solid #8b5e3c;
+
+  /* bikin tetap tajam */
+  image-rendering: auto;
+
+  /* biar clean */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
 object-position: top;
